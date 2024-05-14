@@ -1,6 +1,12 @@
+// google font["Montserrat"]
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --main-blue:#0152A8;
     --main-green:#0FE3AF;
+}
+html,body{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -312,7 +318,7 @@ background-image: url("../img/icon/star.svg");
   .why-choose-us-url a::before {
     content: "";
     display: inline-block;
-    background-image: url("../img/icon/link-check.svg");
+    background-image: url("../img/icon/checked.svg");
     background-size: contain;
     background-position: center;
     width: 20px;
